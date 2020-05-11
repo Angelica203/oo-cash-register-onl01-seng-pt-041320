@@ -1,7 +1,7 @@
 class CashRegister
 
   attr_accessor :total, :employee_discount, :item
-    
+
       def initialize (employee_discount = 0)
         @total = 0
         @employee_discount = employee_discount
@@ -38,5 +38,5 @@ class CashRegister
           @total -= last_transaction[1] * last_transaction[2]
      end
 
-          
+
   end
